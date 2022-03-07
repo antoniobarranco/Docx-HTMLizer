@@ -10,6 +10,12 @@ The origin of this app avoid the time-consuming task of having to clean up conte
 
 This app gives you clean, simple and pretty formated html that you can copy or save as you wish.
 
+## How to get it
+
+You can download an MSI installation package from releases:
+
+https://github.com/antoniobarranco/Docx-HTMLizer/releases
+
 ## To do
 
 - Support for input file as argument
