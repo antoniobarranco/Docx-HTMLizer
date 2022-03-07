@@ -73,7 +73,7 @@
             // ToolStripMenuItemOpen
             // 
             this.ToolStripMenuItemOpen.Name = "ToolStripMenuItemOpen";
-            this.ToolStripMenuItemOpen.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuItemOpen.Size = new System.Drawing.Size(135, 22);
             this.ToolStripMenuItemOpen.Text = "Open .docx";
             this.ToolStripMenuItemOpen.Click += new System.EventHandler(this.ToolStripMenuItemOpen_Click);
             // 
@@ -81,19 +81,19 @@
             // 
             this.ToolStripMenuItemSave.Enabled = false;
             this.ToolStripMenuItemSave.Name = "ToolStripMenuItemSave";
-            this.ToolStripMenuItemSave.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuItemSave.Size = new System.Drawing.Size(135, 22);
             this.ToolStripMenuItemSave.Text = "Save .html";
             this.ToolStripMenuItemSave.Click += new System.EventHandler(this.ToolStripMenuItemSave_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(132, 6);
             // 
             // ToolStripMenuItemExit
             // 
             this.ToolStripMenuItemExit.Name = "ToolStripMenuItemExit";
-            this.ToolStripMenuItemExit.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripMenuItemExit.Size = new System.Drawing.Size(135, 22);
             this.ToolStripMenuItemExit.Text = "Exit";
             this.ToolStripMenuItemExit.Click += new System.EventHandler(this.ToolStripMenuItemExit_Click);
             // 
@@ -159,9 +159,11 @@
             this.textBoxHtmlResult.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxHtmlResult.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.textBoxHtmlResult.Location = new System.Drawing.Point(9, 66);
             this.textBoxHtmlResult.Multiline = true;
             this.textBoxHtmlResult.Name = "textBoxHtmlResult";
+            this.textBoxHtmlResult.PlaceholderText = "Please, choose a file to convert ...";
             this.textBoxHtmlResult.ReadOnly = true;
             this.textBoxHtmlResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxHtmlResult.Size = new System.Drawing.Size(868, 386);

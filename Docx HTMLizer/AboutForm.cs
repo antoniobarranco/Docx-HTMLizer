@@ -28,7 +28,7 @@ namespace Docx_HTMLizer
 
         private void linkLabelGitHub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            var uri = "https://github.com";
+            var uri = "https://github.com/antoniobarranco/Docx-HTMLizer/";
             var psi = new System.Diagnostics.ProcessStartInfo();
             psi.UseShellExecute = true;
             psi.FileName = uri;
