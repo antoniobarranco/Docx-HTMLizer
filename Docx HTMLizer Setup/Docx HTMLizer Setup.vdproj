@@ -37,6 +37,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -53,6 +61,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -139,7 +155,7 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Docx HTMLizer Setup"
+        "ProductName" = "8:Docx HTMLizez"
         "ProductCode" = "8:{24F9C02C-BEC9-4312-BE3C-0641B9051CA5}"
         "PackageCode" = "8:{70DB943B-22B5-465E-9726-71FC32DF2374}"
         "UpgradeCode" = "8:{8D4E4DFD-10CB-4A4A-80E3-298E72CFC2FC}"
@@ -151,13 +167,13 @@
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Antonio Barranco"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
+        "ARPHELPLINK" = "8:https://github.com/antoniobarranco/Docx-HTMLizer"
         "Title" = "8:Docx HTMLizer Setup"
-        "Subject" = "8:"
+        "Subject" = "8:Application to convert docx files to cleanest and simple html as posible"
         "ARPCONTACT" = "8:Antonio Barranco"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
-        "ARPURLINFOABOUT" = "8:"
+        "ARPCOMMENTS" = "8:Application to convert docx files to cleanest and simple html as posible"
+        "ARPURLINFOABOUT" = "8:https://github.com/antoniobarranco/Docx-HTMLizer"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
@@ -676,7 +692,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_75FFC9408D054FEE8CA614236376D83B"
             {
-            "SourcePath" = "8:..\\Docx HTMLizer\\obj\\Debug\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\Docx HTMLizer\\obj\\Release\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_517D8483271D4B23BE8ED892369545F9"
