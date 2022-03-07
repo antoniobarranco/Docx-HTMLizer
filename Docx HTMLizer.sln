@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Docx HTMLizer", "Docx HTMLizer\Docx HTMLizer.csproj", "{32FA86D2-6F30-40B2-BB64-CDE60C755A6F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Docx HTMLizer Setup", "Docx HTMLizer Setup\Docx HTMLizer Setup.vdproj", "{20079555-95AA-4831-8319-50D98B022E3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32FA86D2-6F30-40B2-BB64-CDE60C755A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FA86D2-6F30-40B2-BB64-CDE60C755A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FA86D2-6F30-40B2-BB64-CDE60C755A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FA86D2-6F30-40B2-BB64-CDE60C755A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20079555-95AA-4831-8319-50D98B022E3C}.Debug|Any CPU.ActiveCfg = Debug
+		{20079555-95AA-4831-8319-50D98B022E3C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50454222-0820-4B30-917E-2C0119C53582}
+	EndGlobalSection
+EndGlobal
