@@ -44,6 +44,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -68,6 +76,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -155,9 +171,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Docx HTMLizez"
+        "ProductName" = "8:Docx HTMLizer"
         "ProductCode" = "8:{24F9C02C-BEC9-4312-BE3C-0641B9051CA5}"
-        "PackageCode" = "8:{70DB943B-22B5-465E-9726-71FC32DF2374}"
+        "PackageCode" = "8:{873F9097-1A46-4CD3-9F03-B3171372128B}"
         "UpgradeCode" = "8:{8D4E4DFD-10CB-4A4A-80E3-298E72CFC2FC}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -283,12 +299,12 @@
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
+            "IconIndex" = "3:32512"
             "Transitive" = "11:FALSE"
             "Target" = "8:_75FFC9408D054FEE8CA614236376D83B"
             "Folder" = "8:_285E73F861564EB29C3499FA4DBE95B8"
             "WorkingFolder" = "8:_517D8483271D4B23BE8ED892369545F9"
-            "Icon" = "8:"
+            "Icon" = "8:_75FFC9408D054FEE8CA614236376D83B"
             "Feature" = "8:"
             }
         }
@@ -692,7 +708,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_75FFC9408D054FEE8CA614236376D83B"
             {
-            "SourcePath" = "8:..\\Docx HTMLizer\\obj\\Release\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\Docx HTMLizer\\obj\\Debug\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_517D8483271D4B23BE8ED892369545F9"
