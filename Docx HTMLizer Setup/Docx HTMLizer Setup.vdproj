@@ -133,9 +133,20 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_2A57D3749C8E4E249042DC1E3E346805"
+            {
+            "Name" = "8:#1920"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:SendToFolder"
+                "Folders"
+                {
+                }
+            }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_517D8483271D4B23BE8ED892369545F9"
             {
-            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -172,15 +183,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Docx HTMLizer"
-        "ProductCode" = "8:{24F9C02C-BEC9-4312-BE3C-0641B9051CA5}"
-        "PackageCode" = "8:{873F9097-1A46-4CD3-9F03-B3171372128B}"
+        "ProductCode" = "8:{EBFECB88-A908-42CE-952B-F718CFB56787}"
+        "PackageCode" = "8:{328D2DDC-9E77-4D1F-BEC9-6A2C6608C8F0}"
         "UpgradeCode" = "8:{8D4E4DFD-10CB-4A4A-80E3-298E72CFC2FC}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:1.1.0"
         "Manufacturer" = "8:Antonio Barranco"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/antoniobarranco/Docx-HTMLizer"
@@ -305,6 +316,20 @@
             "Folder" = "8:_285E73F861564EB29C3499FA4DBE95B8"
             "WorkingFolder" = "8:_517D8483271D4B23BE8ED892369545F9"
             "Icon" = "8:_75FFC9408D054FEE8CA614236376D83B"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D4207741C81745AA8C078CD2719C821A"
+            {
+            "Name" = "8:Docx HTMLizer"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_75FFC9408D054FEE8CA614236376D83B"
+            "Folder" = "8:_2A57D3749C8E4E249042DC1E3E346805"
+            "WorkingFolder" = "8:_517D8483271D4B23BE8ED892369545F9"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -708,7 +733,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_75FFC9408D054FEE8CA614236376D83B"
             {
-            "SourcePath" = "8:..\\Docx HTMLizer\\obj\\Debug\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\Docx HTMLizer\\obj\\Release\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_517D8483271D4B23BE8ED892369545F9"

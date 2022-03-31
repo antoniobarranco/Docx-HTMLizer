@@ -43,6 +43,11 @@ namespace Docx_HTMLizer
                 var result = converter.ConvertToHtml(docxFile);
                 var html = result.Value;
                 var warnings = result.Warnings;
+
+                textBoxHtmlResult.Font = new Font(textBoxHtmlResult.Font.FontFamily, 9);
+                textBoxHtmlResult.TextAlign = HorizontalAlignment.Left;
+                textBoxHtmlResult.Enabled = true;
+
                 textBoxHtmlResult.Text = BeautyHTML(html);
                 toolStripButtonSave.Enabled = true;
                 ToolStripMenuItemSave.Enabled = true;
@@ -137,5 +142,22 @@ namespace Docx_HTMLizer
             SaveFile();
         }
 
+        private void MainForm_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop)) e.Effect = DragDropEffects.Copy;
+        }
+
+        private void MainForm_DragDrop(object sender, DragEventArgs e)
+        {
+
+            string[] filename = (string[])e.Data.GetData(DataFormats.FileDrop);
+            string selectedFilename = filename[0];
+            if (selectedFilename.EndsWith(".docx"))
+            {
+                LoadFile(filename[0]);
+            }
+
+
+        }
     }
 }

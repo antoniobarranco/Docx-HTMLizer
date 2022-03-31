@@ -160,14 +160,17 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxHtmlResult.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxHtmlResult.Location = new System.Drawing.Point(9, 66);
+            this.textBoxHtmlResult.Enabled = false;
+            this.textBoxHtmlResult.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxHtmlResult.Location = new System.Drawing.Point(12, 66);
             this.textBoxHtmlResult.Multiline = true;
             this.textBoxHtmlResult.Name = "textBoxHtmlResult";
-            this.textBoxHtmlResult.PlaceholderText = "Please, choose a file to convert ...";
             this.textBoxHtmlResult.ReadOnly = true;
             this.textBoxHtmlResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxHtmlResult.Size = new System.Drawing.Size(868, 386);
+            this.textBoxHtmlResult.Size = new System.Drawing.Size(860, 383);
             this.textBoxHtmlResult.TabIndex = 2;
+            this.textBoxHtmlResult.Text = "\r\n\r\nPlease, choose a file to convert or drag it here ...";
+            this.textBoxHtmlResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // openFileDialog
             // 
@@ -181,6 +184,7 @@
             // 
             // MainForm
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 461);
@@ -189,8 +193,11 @@
             this.Controls.Add(this.menuStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip;
+            this.MinimumSize = new System.Drawing.Size(900, 500);
             this.Name = "MainForm";
             this.Text = "Docx HTMLizer";
+            this.DragDrop += new System.Windows.Forms.DragEventHandler(this.MainForm_DragDrop);
+            this.DragEnter += new System.Windows.Forms.DragEventHandler(this.MainForm_DragEnter);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.toolStrip.ResumeLayout(false);
