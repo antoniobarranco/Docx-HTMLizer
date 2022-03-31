@@ -86,9 +86,9 @@
             this.labelAppVersion.AutoSize = true;
             this.labelAppVersion.Location = new System.Drawing.Point(297, 36);
             this.labelAppVersion.Name = "labelAppVersion";
-            this.labelAppVersion.Size = new System.Drawing.Size(70, 15);
+            this.labelAppVersion.Size = new System.Drawing.Size(63, 15);
             this.labelAppVersion.TabIndex = 5;
-            this.labelAppVersion.Text = "Version 1.0b";
+            this.labelAppVersion.Text = "Version 1.1";
             // 
             // label1
             // 
