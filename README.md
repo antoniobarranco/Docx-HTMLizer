@@ -18,7 +18,7 @@ https://github.com/antoniobarranco/Docx-HTMLizer/releases
 
 ## To do
 
-- Support for input file as argument
-- Support for input file as Drag and Drop event
+- ~~Support for input file as argument~~: DONE in v1.1!
+- ~~Support for input file as Drag and Drop event~~: DONE in v1.1!
 - Save all related images functionality
 - Batch conversion functionality
