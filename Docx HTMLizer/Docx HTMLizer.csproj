@@ -8,6 +8,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>Resources\text-html.ico</ApplicationIcon>
+    <AssemblyVersion></AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
